@@ -11,21 +11,21 @@ class SecondScreen extends StatelessWidget {
     return Scaffold(
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
-        children: [
+       // children: [
           //GetX<AuthViewModel>(
             //init: AuthViewModel(),
             //builder: (value) => Text("${value.counter}"),
           //),
-          Obx(
-              () => Text("${viewmodel.counter}"),
-          ),
-          ElevatedButton(
-            onPressed: () {
-              viewmodel.increament();
-            },
-            child: const Text("Increment"),
-          )
-        ],
+         // Obx(
+           //   () => Text("${viewmodel.counter}"),
+          //),
+          //ElevatedButton(
+            //onPressed: () {
+              //viewmodel.increament();
+           // },
+            //child: const Text("Increment"),
+         // )
+       // ],
       ),
     );
   }
